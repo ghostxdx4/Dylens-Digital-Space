@@ -521,6 +521,17 @@ body::-webkit-scrollbar {
     margin-left: 0;
     align-self: center;
   }
+
+    #particles-js {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 200%;
+    z-index: -1;
+    background-color: #000;
+}
+
 }
 
 @media (max-width: 480px) {
