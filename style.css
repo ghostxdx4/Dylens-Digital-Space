@@ -508,7 +508,7 @@ body::-webkit-scrollbar {
 
 @media (max-width: 768px) {
   nav ul {
-    flex-direction: column; /* Stack links vertically */
+    flex-direction: column;
     margin-bottom: 10px;
   }
 
@@ -518,19 +518,19 @@ body::-webkit-scrollbar {
   }
 
   .gradient-btn {
-    margin-left: 0; /* Reset auto margin */
-    align-self: center; /* Center button in smaller screens */
+    margin-left: 0;
+    align-self: center;
   }
 }
 
 @media (max-width: 480px) {
   nav ul li a {
-    font-size: 14px; /* Reduce font size for smaller screens */
+    font-size: 14px;
   }
 
   .gradient-btn {
-    padding: 8px 16px; /* Adjust button size */
-    font-size: 14px; /* Adjust font size for button */
+    padding: 8px 16px;
+    font-size: 14px;
   }
 
   #particles-js {
